@@ -1,5 +1,5 @@
-#!
-
+##!/usr/bin/env python3
+  
 '''
 
 Stack() creates a new stack that is empty. It needs no parameters and returns an empty stack.
