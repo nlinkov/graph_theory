@@ -1,5 +1,6 @@
-##!/usr/bin/env python3
-  
+#lib/stack.py
+## !/usr/bin/env python3
+
 '''
 
 Stack() creates a new stack that is empty. It needs no parameters and returns an empty stack.
@@ -46,6 +47,8 @@ class Stack():
     def isEmpty(self):
         if len(self.stack) == 0:
             return True
+        else:
+            return False
 
     @property
     def get(self):
